@@ -399,7 +399,7 @@ const A = tripA();
 const B = tripB();
 const out = {
   schemaVersion: 1,
-  generatedAt: new Date().toISOString(),
+  generatedAt: routeAData.fetchedAt, // tied to the data snapshot so the output is reproducible
   sources: {
     route: { name: routeAData.source, fetchedAt: routeAData.fetchedAt },
     weather: { name: weatherData.source, fetchedAt: weatherData.fetchedAt },
