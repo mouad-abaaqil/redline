@@ -1,0 +1,7 @@
+* text=auto
+*.svg text
+*.step binary
+*.stl binary
+*.pdf binary
+*.png binary
+*.jpg binary
