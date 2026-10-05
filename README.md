@@ -10,9 +10,14 @@
 </p>
 
 <p align="center">
+  <img src="./docs/screens/redline-product-concept.png" alt="Concept illustration of the Redline freight tracker monitoring cargo, route deviation, and a fleet relay" width="100%">
+</p>
+<p align="center"><sub>Product concept: a tracker watching cargo on the road, with route deviation and fleet relay shown around it. This is an illustration, not a photograph of a manufactured device.</sub></p>
+
+<p align="center">
   <img src="./docs/screens/dashboard-theft.png" alt="Redline control center showing a suspected theft: the platform feed, the map with the planned corridor and the last gasp" width="100%">
 </p>
-<p align="center"><sub>The control center replaying a simulated theft. Route and weather are real open data; the vehicles, the thief and the fleet relays are simulated. Every device decision comes from the real firmware core.</sub></p>
+<p align="center"><sub>The control center replaying a simulated theft. The road and weather use open data; vehicles, theft events, and fleet relays are simulated. Device decisions come from the firmware core.</sub></p>
 
 > **Successor of [TiltAlert](https://github.com/mouad-abaaqil/TiltAlert).** TiltAlert counts the shocks a parcel takes. Redline tells you where the whole shipment is, when it will arrive, whether it is still on its route, and what happened to it, even if nobody ever finds the device.
 
